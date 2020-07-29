@@ -20,6 +20,7 @@ const Login: React.FC<UserState & RouteComponentProps> = ({ ...props }) => {
 
   const handleLogin = async (event: React.FormEvent) => {
     event.preventDefault()
+    console.log(state.user)
     await dispatch(userLogin(state.user as any))
     if (!props.user?.student?.email) {
       await props.history.push('/')
