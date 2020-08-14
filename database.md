@@ -1,11 +1,18 @@
 # SQL Database
 
+## Model
+
+<div align="center">
+    <img src="./client/src/assets/images/db-model.png" width=500>
+</div>
+
 ### Entities for the System
 
 Every Record will have:
-Created At - datetime
-Updated At - datetime
-Deleted At - datetime
+
+1. Created At - datetime
+1. Updated At - datetime
+1. Deleted At - datetime
 
 - [x] Admin
 
