@@ -414,6 +414,8 @@ export const Home: React.FC = () => {
         </div>
       </div>
 
+      {/* Foot Section */}
+
       <footer className="flex justify-around bg-gray-200 h-40">
         <div className="flex justify-center px-2 py-2 m-3">
           <p className="align-middle mt-auto mb-auto font-semibold">
