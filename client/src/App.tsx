@@ -30,8 +30,7 @@ const App: React.FC<RouteComponentProps<any> & RootState> = ({ ...props }) => {
   }, [props.history, props.users.user])
 
   return (
-    <div className="App">
-      <Nav />
+    <div>
       {/* <MessageList /> */}
       <Switch>
         <Route exact path="/" component={Home} />
