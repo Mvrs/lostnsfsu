@@ -141,10 +141,12 @@ export const Home: React.FC = () => {
             style={{ width: 400 }}
           >
             <img src={pic} alt="Sunset in the mountains" />
-            <div className="px-6 py-4">
+            <button className="px-6 py-4">
               <div className="mb-2 ml-4 mt-4 pt-0 pb-1">
                 <p
                   style={{
+                    marginRight: '9rem',
+                    marginLeft: 'auto',
                     fontSize: '1.75rem',
                     fontFamily: 'Open Sans',
                     fontWeight: 'bold',
@@ -167,7 +169,7 @@ export const Home: React.FC = () => {
               >
                 1234 Faker St, Sanfrancisco , CA 94611
               </span>
-            </div>
+            </button>
             <div className="mb-2 mx-8 pl-0 pr-1 pb-4 pt-0">
               <span className="inline-flex  items-center  px-3 py-1 mr-2">
                 <svg
@@ -219,10 +221,12 @@ export const Home: React.FC = () => {
             style={{ width: 400 }}
           >
             <img src={pic1} alt="Sunset in the mountains" />
-            <div className="px-6 py-4">
+            <button className="px-6 py-4">
               <div className="mb-2 ml-4 mt-4 pt-0 pb-1">
                 <p
                   style={{
+                    marginRight: '9rem',
+                    marginLeft: 'auto',
                     fontSize: '1.75rem',
                     fontFamily: 'Open Sans',
                     fontWeight: 'bold',
@@ -245,7 +249,7 @@ export const Home: React.FC = () => {
               >
                 1234 Faker St, Sanfrancisco , CA 94611
               </span>
-            </div>
+            </button>
             <div className="mb-2 mx-8 pl-0 pr-1 pb-4 pt-0">
               <span className="inline-flex  items-center  px-3 py-1 mr-2">
                 <svg
@@ -297,10 +301,12 @@ export const Home: React.FC = () => {
             style={{ width: 400 }}
           >
             <img src={pic2} alt="Sunset in the mountains" />
-            <div className="px-6 py-4">
+            <button className="px-6 py-4">
               <div className="mb-2 ml-4 mt-4 pt-0 pb-1">
                 <p
                   style={{
+                    marginRight: '9rem',
+                    marginLeft: 'auto',
                     fontSize: '1.75rem',
                     fontFamily: 'Open Sans',
                     fontWeight: 'bold',
@@ -323,7 +329,7 @@ export const Home: React.FC = () => {
               >
                 1234 Faker St, Sanfrancisco , CA 94611
               </span>
-            </div>
+            </button>
             <div className="mb-2 mx-8 pl-0 pr-1 pb-4 pt-0">
               <span className="inline-flex  items-center  px-3 py-1 mr-2">
                 <svg
@@ -382,19 +388,50 @@ export const Home: React.FC = () => {
           maxWidth: 'auto',
         }}
       >
-        <div className="flex items-center h-full">
+        <div className="flex justify-center relative h-auto">
           <h1
-            className="flex-1 text-white text-5xl w-64 p-4 text-center font-bold"
+            className=" text-white text-5xl w-auto p-4 ml-auto mr-auto text-center font-bold absolute"
             style={{
-              marginTop: '20rem',
+              marginTop: '25rem',
               fontFamily: 'Open Sans',
               marginBottom: '20rem',
             }}
           >
-            Ready for Life Outside the Dorm?
+            Ready for Life Outside your Dorm?
           </h1>
+
+          {/* content-center m-4 pb-6 py-2 ml-auto mr-auto mt-48 */}
+          <div className="pt-40 ml-auto mr-auto mt-20 absolute">
+            <button
+              className="text-center px-20 py-3 rounded-full hover:bg-purple-700 border-purple-600 "
+              style={{ backgroundColor: '#805ad5', marginTop: '20rem' }}
+            >
+              <p className="flex justify-center text-white font-medium text-4xl">
+                Sign Up
+              </p>
+            </button>
+          </div>
         </div>
       </div>
+
+      <footer className="flex justify-around bg-gray-200 h-40">
+        <div className="flex justify-center px-2 py-2 m-3">
+          <p className="align-middle mt-auto mb-auto font-semibold">
+            ©2020 lostnsfsu
+          </p>
+        </div>
+        <div className="flex justify-center text-center px-2 py-2 m-3 relative">
+          <p className="align-middle mt-auto mb-auto font-semibold">
+            <b className="opacity-50">Aren't we&nbsp;</b>
+            all@lostnsfu.com
+          </p>
+        </div>
+        <div className="flex justify-center text-center px-2 py-2 m-3 relative">
+          <p className="text-center mt-auto mb-auto font-semibold  opacity-100">
+            Private Policy
+          </p>
+        </div>
+      </footer>
     </div>
   )
 }

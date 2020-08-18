@@ -89,10 +89,10 @@ const Nav: React.FC<RouteComponentProps & UserState> = ({ ...props }) => {
             <Link to="/">About</Link>
           </li>
           <li className="px-4 text-white text-lg font-medium">
-            <Link to="/">Sell Property</Link>
+            <Link to="/">More Information</Link>
           </li>
           <li className="px-4 text-white text-lg font-medium">
-            <Link to="/">Rental Property</Link>
+            <Link to="/">Rent</Link>
           </li>
           <li className="px-4 text-white text-lg font-medium">
             <Link to="/register">Sign up</Link>
