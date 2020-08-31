@@ -1,2 +1,5 @@
 local.env
 node_modules/
+
+.env
+docker-data
