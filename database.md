@@ -1,11 +1,14 @@
 # SQL Database
 
-### Entities for the System
+## Every Record will have:
 
-Every Record will have:
-Created At - datetime
-Updated At - datetime
-Deleted At - datetime
+`Created At - datetime`
+<br>
+`Updated At - datetime`
+<br>
+`Deleted At - datetime`
+
+## Entities for the System
 
 - [x] Admin
 
@@ -16,3 +19,10 @@ Deleted At - datetime
 - [x] House Info
 
 - [x] Address
+
+## Tables that will need Seeding
+
+- [ ] User
+- [ ] House Type
+- [ ] Location
+- [ ] Address
